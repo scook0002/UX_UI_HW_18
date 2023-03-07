@@ -1,63 +1,181 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>My UX Skills</title>
-    </head>
-    <body>
-        <section class="mySkills">
-            <h1>My UX Skills</h1>
-            <div class="flexContainer">
-                <div1>
-                    <img src="Images18/ResearchIcon.png">
-                    <h3>User Research</h3>
-                    <p>My approach to User Research is to always remain curious and to not enter the research with assumptions.</p>
-                    <p>Remaining open and curious allows me to absorb user insights like a sponge, that I can then use to guide my design process.</p>
-                    <p>During User Research, I use Miro, Google Drive, Documents, and Surveys to record and analyze user insights.</p>
-                </div>
-                <div2>
-                    <img src="Images18/EmpathyIcon.png">
-                    <h3>User Empathy</h3>
-                    <p>My approach to User Empathy is to put the user at the center of attention.</p>
-                    <p>When I can solely focus on the user, I can gain a deep understanding of who they are and what is important to them.</p>
-                    <p>By empathizing with the user, I am better able to design a digital experience that exceeds their expectations, as well as meets their wants, needs, and desires.</p>
-                </div>
-                <div3>
-                    <img src="Images18/InterviewIcon.png">
-                    <h3>Qualitative Interviews</h3>
-                    <p>My approach to Qualitative Interviews is to get into the mind of the user.</p>
-                    <p>I want to have a conversation as if I were talking to a friend to gain a deeper connection and deeper insight into what the user actually thinks.</p>
-                    <p>During Qualitative Interviews, it is important that I create an Interview Script with questions that are not leading but instead facilitate an open and honest conversation.</p>
-                </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sarah Cook UX Portfolio</title>
+
+    <link href="Images/logo.png" rel="icon" type="image">
+    <link href="CSS18/style.css18" rel="stylesheet" type="text/css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+
+
+    <!-- Introduction Section -->
+    <section class="section1">
+        <a id="back"></a>
+        <header>
+          <img src="Images/logo.png" alt="Logo">
+            <nav class="top_nav">
+                
+                <a class= "inactive" href="#"> About </a>
+                <a class= "inactive" href="#"> Work </a>
+              <a class= "inactive" href="#"> Skills </a>
+                <a class= "inactive" href="#"> Contact  </a>
+            </nav>
+        </header>
+
+
+        <div class="Intro"> 
+            <img src="Images/Profile Picture.jpg" alt="Sarah Cook">
+            <h2 class="welcome"> Nice to meet you, I'm Sarah <br> UX | UI Designer </h2>
+            
+            <button class="outline"> Read more </button>
+        </div>
+
+    </section>
+
+    <!-- My UX Skills Section coded using CSS flex -->
+    <section class="section2">
+
+        <div id="desc" class="title">
+            <h1 class="lightHeading"> My Skills </h1>
+            <img src="Images/Dots.png" alt="Dots">
+        </div>
+    
+        <div class="MySkills">
+
+
+            <div id="desc1" class="description">
+                <h3 class="font2"> User Research </h3>
+                <p id="section2"> My approach to User Research is to always remain curious and to not enter the research with assumptions. Remaining open and curious allows me to absorb user insights like a sponge, which I can then use to guide my design process. During User Research, I use Miro, Google Drive, Documents, and Surveys to record and analyze user insights. </p>
             </div>
-        </section>
-        <section class="myWork">
-            <h1>My Work</h1>
-            <div class="workGrid">
-                <div1>
-                    <img>
-                </div1>
-                <div2>
-                    <h4>
-                    </h4>
-                    <p></p>
-                    <button type="button">View project</button>
-                </div2>
-                <div3>
-                    <img>
-                </div3>
-                <div4>
-                    <h4></h4>
-                    <p></p>
-                    <button type="button">View project</button>
-                </div4>
+
+
+            <div id="desc2" class="description">
+                <h3 class="font2"> User Empathy </h3>
+                <p id="section2"> My approach to User Empathy is to put the user at the center of attention. When I can solely focus on the user, I can gain a deep understandi g of who they are and what is important to them. By empathizing with the user, I am better able to design digital experiences that exceed expectations, while meeting the users' wants, needs, and desires. </p>
             </div>
-            <h3>View all projects</h3>
-        </section>
-    </body>
+          
+
+            <div id="desc3" class="description">
+                <h3 class="font2"> Qualitative Interviews </h3>
+                <p id="section2"> My approach to Qualitative Interviews is to get into the mind of the user. I want to have a conversation as if I were talking with a friend to gain a deeper connection and understanding of my user. During Qualitative Interviews, it is essential that I create an Interview Script with questions that are open to facilitate an honest conversation. </p>
+            </div>
+
+                
+        </div>
+
+        <div class="myTools">
+            <h1 class="lightHeading"> </h1>
+            
+        </div>
+
+        <img src="Images/Tools.png" alt="Tools">
+
+    </section>
 
 
 
+    <!-- My Work Section constructed using CSS Grid -->
+    <a id="work"></a>
+    <section class="section3">
+        
+        
+        <div class="title">
+            <h1 class="darkHeading"> My Works </h1>
+            <img src="Images/Dots.png" alt="Dots">
+        </div>
+    
+    
+    <div class = "container">
+
+        <div class="row1">
+            <div class="summary">
+                <h5 class="type"> Travel Planning App | 2022 </h5>
+                <h3 class="font2"> Mobile Design </h3>
+                <p id="section3"> Design a travel app that enables users to easily access a schedule/itinerary curated from selected travel plans and activities. </p>
+                <button class="project"> View Project </button>
+            </div>
+
+            <div class="mockup">
+                <img class="image" src="Images/Travelapp.png" alt="Travel Mockup">
+            </div>
+        </div>
+
+
+        <div class="row2">
+            <div class="mockup">
+                <img class="image" src="Images/Hobbyapp.png" style="padding-left: 22.5%;" alt="Hobby Mockup">
+            </div>
+
+            <div class="summary">
+                <h5 class="type"> Hobby Discovery App | 2022 </h5>
+                <h3 class="font2"> Mobile Design </h3>
+                <p id="section3"> Design a hobby discovery app that provides users with access to a variety of hobbies based on their interests, preferences, and unique life demands. Users are able to learn and track their progress within their desired hobbies. </p>
+                <button class="project"> View Project </button>
+            </div>
+
+        </div>
+
+
+        <div class="row3">
+            <div class="summary">
+                <h5 class="type"> Non-Profit Mental Health Redesign | 2023 </h5>
+                <h3 class="font2"> Responsive Web Design </h3>
+                <p id="section3"> Redesign the NAMI (National Alliance on Mental Illness) website that allows users to find resources and additional information that helps them take first steps in their mental health journeys. </p>
+                <button class="project"> View Project </button>
+            </div>
+
+            <div class="mockup">
+                <img class="image" src="Images/MentalHealthWeb.png" alt="Mental Health Mockup">
+            </div>
+
+        </div>
+    </div>
+        
+   
+    </section>
 
 
 
+    <!-- Footer Section -->
+    <section class="section4">
+        
+        <a href="#back">
+            <div class="backtotop">
+                <img src="Images/Double-Arrow.svg">
+                <h5> BACK TO TOP </h5>
+            </div>
+        </a>
+        
+
+        <div class="footertext">
+            <h2 class="linen"> Connect with me! </h2>
+            <h3 class="font1"> I'd love to chat more about my work and my goals.</h3>
+        </div>
+        
+
+        <div class="contact">
+            <button class="solid-red">FIND ME ON LINKEDIN</button>
+            <button class="no-fill">WRITE ME AN EMAIL</button>
+        </div>
+        
+
+        <h6> @ <b> 2023 Sarah Cook </b> All Rights Reserved.</h6>
+
+
+    </section>
+</body>
 </html>
