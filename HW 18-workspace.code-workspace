@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../My_First_Repo/UX_UI_HW_17/Images"
+		},
+		{
+			"path": "../My_First_Repo/UX_UI_HW_17"
+		},
+		{
+			"path": "../My_First_Repo/UX_UI_HW_17/CSS"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "UX_UI_HW_17"
+	}
+}
