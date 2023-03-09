@@ -7,8 +7,8 @@
 
     <title>Sarah Cook UX Portfolio</title>
 
-    <link href="images18/logo.png" rel="icon" type="image">
-    <link href="CSS18/style.css18" rel="stylesheet" type="text/css">
+    <link href="Images/logo.png" rel="icon" type="image">
+    <link href="CSS18/style.css" rel="stylesheet" type="text/css">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -65,7 +65,7 @@
 
             <div id="desc2" class="description">
                 <h3 class="font2"> User Empathy </h3>
-                <p id="section2"> My approach to User Empathy is to put the user at the center of attention. When I can solely focus on the user, I can gain a deep understandi g of who they are and what is important to them. By empathizing with the user, I am better able to design digital experiences that exceed expectations, while meeting the users' wants, needs, and desires. </p>
+                <p id="section2"> My approach to User Empathy is to put the user at the center of attention. When I can solely focus on the user, I can gain a deep understanding of who they are and what is important to them. By empathizing with the user, I am better able to design digital experiences that exceed expectations, while meeting the users' wants, needs, and desires. </p>
             </div>
           
 
@@ -76,7 +76,9 @@
 
                 
         </div>
-
+        <div>
+            <img src="images18/Dots.png" alt="Dots">
+        </div>
         <div class="myTools">
             <h1 class="lightHeading"> </h1>
             
@@ -110,14 +112,22 @@
             </div>
 
             <div class="mockup">
-                <img class="image" src="images18/Travelapp.png" alt="Travel Mockup">
+                <picture>
+                    <source media="(max-width: 799px)" srcset="images18/Travelmobile.png"/>
+                    <source media="(min-width: 800px)" srcset="images18/Travelapp.png"/>
+                    <img class="image" src="images18/Travelapp.png" alt="Travel Mockup">
+                </picture>
             </div>
         </div>
 
 
         <div class="row2">
             <div class="mockup">
-                <img class="image" src="images18/Hobbyapp.png" style="padding-left: 22.5%;" alt="Hobby Mockup">
+                <picture>
+                    <source media="(max-width: 799px)" srcset="images18/Hobbymobile.png"/>
+                    <source media="(min-width: 800px)" srcset="images18/Hobbyapp.png"/>
+                    <img class="image" src="images18/Hobbyapp.png" style="padding-left: 22.5%;" alt="Hobby Mockup">
+                </picture>
             </div>
 
             <div class="summary">
@@ -139,7 +149,11 @@
             </div>
 
             <div class="mockup">
-                <img class="image" src="images18/MentalHealthWeb.png" alt="Mental Health Mockup">
+                <picture>
+                    <source media="(max-width: 799px)" srcset="images18/NAMIweb.png"/>
+                    <source media="(min-width: 800px)" srcset="images18/MentalHealthWeb.png"/>
+                    <img class="image" src="images18/MentalHealthWeb.png" alt="Mental Health Mockup">
+                </picture>
             </div>
 
         </div>
@@ -155,7 +169,6 @@
         
         <a href="#back">
             <div class="backtotop">
-                <img src="images18/Dots.png" alt="Dots">
                 <h5> BACK TO TOP </h5>
             </div>
         </a>

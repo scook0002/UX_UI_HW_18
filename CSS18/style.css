@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-
-
 /* Introduction Section using FLEX */
 .section1{
     width: 100%;
@@ -21,6 +19,12 @@ header{
 img[src*="Images/logo.png"]{
     margin-top: 2.5%;
     padding-left: 5%;
+}
+
+img[src*="images18/Profile Picture.jpg"]{
+    margin-top: 2.5%;
+    padding-left: 5%;
+  border-radius:50%;
 }
 
 .top_nav{
@@ -39,6 +43,10 @@ img[src*="Images/logo.png"]{
     color: #0081A7;
     font-style: normal;
     font-weight: 500;
+}
+
+.inactive:hover {
+  color:#00AFB9;
 }
 
 .Intro{
@@ -86,6 +94,14 @@ img[src*="Images/logo.png"]{
     background-color: #0081A7;
 }
 
+.outline {
+    transition-duration:0.4s;
+}
+
+.outline:hover {
+    background-color:#00AFB9;
+  color:white;
+}
 
 /* UX Skills Section using FLEX */
 .section2{
@@ -270,6 +286,11 @@ background-color: white;
     font-size: 18px;
     line-height: 30px;
     background: none;
+}
+
+.project:hover {
+    background-color:black;
+  color:white;
 }
 
 .summary{
